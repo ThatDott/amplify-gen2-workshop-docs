@@ -1,0 +1,66 @@
+site_name: Amplify Gen 2 Workshop
+nav:
+  - Home: index.md
+
+  - Table of Contents: table-of-contents.md
+
+  - Workshop Overview: overview.md
+
+  - Workshop Elements: workshop-elements.md
+
+  - Introduction:
+      - Why AWS is the Solution: 1-intro/aws-overview.md
+      - Overview of AWS Amplify: 1-intro/amplify-overview.md
+      - Gen 1 vs Gen 2: 1-intro/gen1-vs-gen2.md
+
+  - Getting Started:
+      - Prerequisites: 2-start/prereq.md
+      - Create a React App: 2-start/create-react-app.md 
+
+  - Initializing Amplify Gen 2: 3-init/init-amplify.md
+
+  - Amplify Auth:
+      - Add User Authentication: 4-auth/add-auth.md
+      - Enable Multi-Factor Authentication: 4-auth/mfa.md
+
+  - Amplify Data:
+      - Define Schema: 5-data/data-integration.md
+      - Create A Post: 5-data/create-post.md
+      - View Posts: 5-data/read-post.md
+      - Update Post: 5-data/edit-post.md
+      - Delete Post: 5-data/delete-post.md
+      - Configure Permissions: 5-data/permission.md
+
+  - Amplify Storage:
+      - Define Storage Bucket: 6-storage/storage-bucket.md
+      - Setup File Upload: 6-storage/file-upload.md
+      - Display Images: 6-storage/display-images.md
+      - Delete Files: 6-storage/delete-files.md
+      - Download Files: 6-storage/file-download.md
+
+  - Final Deployment & Review:
+      - Final Deployment Steps: 7-final/deploy-final.md
+      - Managing Your App in Amplify Console: 7-final/amplify-console.md
+      - Final Review: 7-final/review-schema.md
+
+  - Clean Up: 8-wrapup/clean-up.md
+
+theme:
+  name: material
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - timetoread
